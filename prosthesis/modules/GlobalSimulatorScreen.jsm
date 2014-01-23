@@ -16,8 +16,8 @@ let DEBUG_PREFIX = "prosthesis: GlobalSimulatorScreen.jsm - ";
 let debug = DEBUG ? function debug(msg) dump(DEBUG_PREFIX+msg+"\n") : function() {};
 
 this.GlobalSimulatorScreen = {
-  width: 320,
-  height: 480,
+  width: 360,
+  height: 640,
   // Orientation data for the current app,
   // what it supports
   mozOrientationLocked: false,
@@ -59,11 +59,11 @@ this.GlobalSimulatorScreen = {
   // adjust shell, homescreen and optional app div container (if appOrigin != null)
   adjustWindowSize: function() {
     if (GlobalSimulatorScreen.screenOrientation.match(/^portrait/)) {
-      GlobalSimulatorScreen.width = 320;
-      GlobalSimulatorScreen.height = 480;
+      GlobalSimulatorScreen.width = 360;
+      GlobalSimulatorScreen.height = 640;
     } else if (GlobalSimulatorScreen.screenOrientation.match(/^landscape/)) {
-      GlobalSimulatorScreen.width = 480;
-      GlobalSimulatorScreen.height = 320;
+      GlobalSimulatorScreen.width = 640;
+      GlobalSimulatorScreen.height = 360;
     }
 
     debug("notify 'simulator-adjust-window-size': " +

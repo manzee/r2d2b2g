@@ -1,15 +1,12 @@
 [submodule "mozdownload"]
 	path = mozdownload
-	url = git://github.com/mykmelez/mozdownload.git
+	url = git://github.com/manzee/mozdownload.git
 [submodule "mozbase"]
 	path = mozbase
-	url = git://github.com/mykmelez/mozbase.git
+	url = git://github.com/manzee/mozbase.git
 [submodule "addon-sdk"]
 	path = addon-sdk
-	url = git://github.com/mykmelez/addon-sdk.git
-[submodule "gaia"]
-	path = gaia
-	url = git://github.com/mykmelez/gaia.git
+	url = git://github.com/manzee/addon-sdk.git
 [submodule "addon/packages/subprocess"]
 	path = addon/packages/subprocess
-	url = git://github.com/mykmelez/jetpack-subprocess.git
+	url = git://github.com/manzee/jetpack-subprocess.git

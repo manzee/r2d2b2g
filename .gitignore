@@ -21,3 +21,8 @@ gaia-l10n
 # local build configuration options
 local.mk
 
+#
+b2g-28.0a2.multi.linux-x86_64.tar.bz2
+
+#
+gaia
